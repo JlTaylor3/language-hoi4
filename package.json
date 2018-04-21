@@ -1,7 +1,7 @@
 {
   "name": "hoi4-grammar",
   "main": "./lib/hoi4-grammar",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Support for Paradox Interactive's specialised HoI4-flavoured Clausewitz Language",
   "keywords": [
     "syntax",
@@ -13,6 +13,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
