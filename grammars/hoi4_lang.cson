@@ -94,7 +94,7 @@ patterns: [ # An array of individual pattern declarations.
   }
   {
     comment: 'Event Settings'
-    match: "\\b(trigger|mean_time_to_happen|option|id|title|desc|picture|immediate|name|fire_only_once|major|is_triggered_only|hidden|icon|text|prerequisite|mutually_exclusive|bypass|available|allowed|visible|complete_tooltip|completion_reward|days_remove|remove_effect)\\b"
+    match: "\\b(trigger|mean_time_to_happen|option|id|title|desc|picture|immediate|name|fire_only_once|major|is_triggered_only|hidden|icon|text|prerequisite|mutually_exclusive|bypass|available|allowed|visible|complete_tooltip|completion_reward|days_remove|remove_effect|ai_will_do|complete_effect|modifier)\\b"
     name: 'constant.character.escape.hoi4'
   }
 ]
