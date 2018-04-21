@@ -1,0 +1,15 @@
+{
+  "name": "hoi4-grammar",
+  "main": "./lib/hoi4-grammar",
+  "version": "0.0.0",
+  "description": "Support for Paradox Interactives specialised HoI4-flavoured Clausewitz Language",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/hoi4-grammar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
