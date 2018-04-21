@@ -4,8 +4,11 @@
   "version": "0.0.0",
   "description": "Support for Paradox Interactives specialised HoI4-flavoured Clausewitz Language",
   "keywords": [
+    "syntax",
+    "highlighting",
+    "grammar"
   ],
-  "repository": "https://github.com/atom/hoi4-grammar",
+  "repository": "https://github.com/Araxiel/HoI4-Grammar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

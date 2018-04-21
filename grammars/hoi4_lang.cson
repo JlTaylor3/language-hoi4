@@ -6,13 +6,17 @@ scopeName: 'source.hoi4' # <scope> should be a short, unique indicator for the l
 name: 'HoI4' # The title that will show up in grammar selection and on your status bar.
 fileTypes: [ # An array of file extensions.
   'txt'
-  'gui'
-  'gfx'
 ]
+limitLineLength: false
 firstLineMatch: '' # A regular expression that is matched against the first line of the document when Atom is trying to decide if the grammar is appropriate. Useful for shell scripts, mostly.
 foldingStartMarker: '' # A regular expression that checks for the start of a foldable area (such as `{`).
 foldingStopMarker: '' # A regular expression that checks for the end of a foldable area (such as `}`). If both folding markers are matched in the same line, there will be no foldable area.
 patterns: [ # An array of individual pattern declarations.
+  {
+    comment: 'Use this to explain the function of the rule, if necessary'
+    name: 'comment.line.hoi4'
+    match: '#.*$'
+  }
   {
     match: '' # A regular expression that matches some content. Optional.
     begin: '' # A regular expression that precedes the content. Optional.
@@ -34,7 +38,12 @@ patterns: [ # An array of individual pattern declarations.
   {
     comment: 'Constants'
     match: '\\b(NULL)\\b'
-    name: 'constant.language.stellaris'
+    name: 'constant.language.hoi4'
+  }
+  {
+    comment: "All strings all the time",
+    match: "(\\'[A-Za-z0-9\\:\\-\\_ %.\\|\\[\\]!@,=\\(\\)<>#\\?\\*\\\"\\/\\\\]*\\'|\\\"[A-Za-z0-9\\:\\-\\_ %.\\|\\[\\]!@,=\\(\\)<>#\\?\\*\\'\\/\\\\]*\\\")",
+    name: 'string.other.quoted-or-unquoted.hoi4'
   }
   {
     match: ''
