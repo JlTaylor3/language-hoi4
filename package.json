@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "hoi4-lang-misterjay:toggle"
   },
-  "repository": "https://github.com/atom/hoi4-lang-misterjay",
+  "repository": "https://github.com/ThatMisterJay/language-hoi4",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
