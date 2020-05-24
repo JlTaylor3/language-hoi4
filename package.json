@@ -2,7 +2,7 @@
   "name": "hoi4-lang-misterjay",
   "main": "./lib/hoi4-lang-misterjay",
   "version": "2.0.0",
-  "description": "A short description of your package",
+  "description": "Support for HOI4 Language based on Araxiel's package.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "hoi4-lang-misterjay:toggle"
