@@ -1,7 +1,7 @@
 {
   "name": "hoi4-lang-misterjay",
   "main": "./lib/hoi4-lang-misterjay",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Support for HOI4 Language based on Araxiel's package.",
   "keywords": [],
   "activationCommands": {
