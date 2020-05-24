@@ -1,17 +1,18 @@
 {
-  "name": "hoi4-grammar",
-  "main": "./lib/hoi4-grammar",
-  "version": "1.0.0",
-  "description": "Support for Paradox Interactive's specialised HoI4-flavoured Clausewitz Language",
+  "name": "hoi4-lang-misterjay",
+  "main": "./lib/hoi4-lang-misterjay",
+  "version": "0.0.0",
+  "description": "A short description of your package",
   "keywords": [
-    "syntax",
-    "highlighting",
-    "grammar"
   ],
-  "repository": "https://github.com/Araxiel/language-hoi4",
+  "activationCommands": {
+    "atom-workspace": "hoi4-lang-misterjay:toggle"
+  },
+  "repository": "https://github.com/atom/hoi4-lang-misterjay",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }

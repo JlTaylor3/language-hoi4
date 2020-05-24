@@ -2,7 +2,7 @@
 
 # Regex to convert keys to unquoted: '(include|match|captures|begin|end|beginCaptures|endCaptures|name|patterns|0|1|2|3|4|5|6|7|8|9|comment|fileTypes|scopeName|repository|contentName|firstLineMatch|foldingStartMarker|foldingStopMarker)':
 
-scopeName: 'source.hoi4' # <scope> should be a short, unique indicator for the language ("js", "php", "c", etc.)
+scopeName: 'source.hoi4-misterjay' # <scope> should be a short, unique indicator for the language ("js", "php", "c", etc.)
 name: 'HoI4' # The title that will show up in grammar selection and on your status bar.
 fileTypes: [ # An array of file extensions.
   'txt'
