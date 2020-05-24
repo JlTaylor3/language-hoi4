@@ -1,7 +1,7 @@
 {
   "name": "hoi4-lang-misterjay",
   "main": "./lib/hoi4-lang-misterjay",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
